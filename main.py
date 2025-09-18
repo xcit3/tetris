@@ -150,9 +150,9 @@ while running == True:
     if bag[0] == "Square":
       for i in active_positions:
         if i == active_positions[0]:
-          i[0] = 120
+          i[0], i[1] = 120, 0
         if i == active_positions[1]:
-          i[0] = 150
+          i[0], i[1] = 150, 0
         if i == active_positions[2]:
           i[0], i[1] = 120, 30
         if i == active_positions[3]:
@@ -163,7 +163,7 @@ while running == True:
     elif bag[0] == "Line":
       for i in active_positions:
         if i == active_positions[0]:
-          i[0] = 150
+          i[0], i[1] = 150, 0
         if i == active_positions[1]:
           i[0], i[1] = 150, 30
         if i == active_positions[2]:
@@ -178,11 +178,11 @@ while running == True:
       if rotation == 1:
         for i in active_positions:
           if i == active_positions[0]:
-            i[0] = 120
+            i[0], i[1] = 120, 0
           if i == active_positions[1]:
-            i[0] = 180
+            i[0], i[1] = 180, 0
           if i == active_positions[2]:
-            i[0] = 150
+            i[0], i[1] = 150, 0
           if i == active_positions[3]:
             i[0], i[1] = 150, 30
           
@@ -235,7 +235,7 @@ while running == True:
       else:
         for i in active_positions:
           if i == active_positions[0]:
-            i[0] = 120
+            i[0], i[1] = 120, 0
           if i == active_positions[1]:
             i[0], i[1] = 120, 30
           if i == active_positions[2]:
@@ -250,7 +250,7 @@ while running == True:
       if rotation == 1:
         for i in active_positions:
           if i == active_positions[0]:
-            i[0] = 150
+            i[0], i[1] = 150, 0
           if i == active_positions[1]:
             i[0], i[1] = 150, 30
           if i == active_positions[2]:
@@ -270,7 +270,7 @@ while running == True:
       elif rotation == 3:
         for i in active_positions:
           if i == active_positions[0]:
-            i[0] = 150
+            i[0], i[1] = 150, 0
           if i == active_positions[1]:
             i[0], i[1] = 150, 30
           if i == active_positions[2]:
@@ -295,7 +295,7 @@ while running == True:
       if rotation == 1:
         for i in active_positions:
           if i == active_positions[0]:
-            i[0] = 150
+            i[0], i[1] = 150, 0
           if i == active_positions[1]:
             i[0], i[1] = 150, 30
           if i == active_positions[2]:
@@ -315,7 +315,7 @@ while running == True:
       elif rotation == 3:
         for i in active_positions:
           if i == active_positions[0]:
-            i[0] = 150
+            i[0], i[1] = 150, 0
           if i == active_positions[1]:
             i[0], i[1] = 150, 30
           if i == active_positions[2]:
@@ -340,9 +340,9 @@ while running == True:
       if rotation == 1:
         for i in active_positions:
           if i == active_positions[0]:
-            i[0] = 120
+            i[0], i[1] = 120, 0
           if i == active_positions[1]:
-            i[0] = 90
+            i[0], i[1] = 90, 0
           if i == active_positions[2]:
             i[0], i[1] = 120, 30
           if i == active_positions[3]:
@@ -350,7 +350,7 @@ while running == True:
       else:
         for i in active_positions:
           if i == active_positions[0]:
-            i[0] = 150
+            i[0], i[1] = 150, 0
           if i == active_positions[1]:
             i[0], i[1] = 150, 30
           if i == active_positions[2]:
