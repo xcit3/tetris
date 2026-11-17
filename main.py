@@ -412,7 +412,7 @@ while running == True:
       delay = 15
     elif difficulty == "3":
       delay = 10
-    elif difficulty == "thomas_langford":
+    elif difficulty == "jules_langford":
       delay = 0
     else:
       delay = 5
@@ -442,7 +442,7 @@ while running == True:
       delay = 15
     elif difficulty == "3":
       delay = 10
-    elif difficulty == "thomas_langford":
+    elif difficulty == "jules_langford":
       delay = 0
     else:
       delay = 5
@@ -456,7 +456,7 @@ while running == True:
   for itemmmmm in inactive_positions:
     langford_check.add(tuple(itemmmmm))
   if len(langford_check) != len(inactive_positions):
-    difficulty = "thomas_langford"
+    difficulty = "jules_langford"
   #checks when a line needs to be cleared
   for i in inactive_positions:
     if i[1] == 0:
